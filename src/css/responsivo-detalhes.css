@@ -1,0 +1,40 @@
+@media (max-width: 1220px) {
+  body {
+    background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 35%,
+      rgba(56, 0, 0, 1) 100%
+    );
+  }
+
+  .background-video {
+    display: none;
+  }
+
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .container .sections #movie {
+    display: none;
+  }
+
+  .container .box-container #box-info {
+    box-shadow: 16px 16px 30px #000000;
+  }
+
+  @media (max-width: 590px) {
+    .header {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .presetation #image-title {
+      max-width: 75%;
+    }
+  }
+}
